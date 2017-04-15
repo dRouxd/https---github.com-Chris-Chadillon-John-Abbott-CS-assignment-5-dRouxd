@@ -145,10 +145,10 @@
             </objects>
             <point key="canvasLocation" x="856.79999999999995" y="-546.47676161919048"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Screen View Controller-->
         <scene sceneID="zOL-gU-ytE">
             <objects>
-                <viewController id="sJy-gd-I99" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainScreenViewController" id="sJy-gd-I99" customClass="MainScreenViewController" customModule="CreateLoginStarter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2GY-Yy-2m0"/>
                         <viewControllerLayoutGuide type="bottom" id="Ra2-2M-pqq"/>

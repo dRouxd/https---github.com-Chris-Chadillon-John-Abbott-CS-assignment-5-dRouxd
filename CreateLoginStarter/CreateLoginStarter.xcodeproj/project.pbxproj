@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		307D206C1EA1C36700ED5AF4 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D206B1EA1C36700ED5AF4 /* MainScreenViewController.swift */; };
 		308F6C5A1EA05B2A006BECDD /* ExtensionMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F6C591EA05B2A006BECDD /* ExtensionMethods.swift */; };
 		54C17E341EA0122B002FDB07 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C17E331EA0122B002FDB07 /* CreateAccountViewController.swift */; };
 		54C17E361EA018B2002FDB07 /* APIDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C17E351EA018B2002FDB07 /* APIDetails.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		307D206B1EA1C36700ED5AF4 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		308F6C591EA05B2A006BECDD /* ExtensionMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionMethods.swift; sourceTree = "<group>"; };
 		54C17E331EA0122B002FDB07 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		54C17E351EA018B2002FDB07 /* APIDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDetails.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				83B0C0E21E8C895100BA0F37 /* ViewController.swift */,
 				54C17E331EA0122B002FDB07 /* CreateAccountViewController.swift */,
+				307D206B1EA1C36700ED5AF4 /* MainScreenViewController.swift */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				54C17E341EA0122B002FDB07 /* CreateAccountViewController.swift in Sources */,
 				83B0C0E31E8C895100BA0F37 /* ViewController.swift in Sources */,
+				307D206C1EA1C36700ED5AF4 /* MainScreenViewController.swift in Sources */,
 				83B0C0E11E8C895100BA0F37 /* AppDelegate.swift in Sources */,
 				54C17E381EA018D9002FDB07 /* APICalls.swift in Sources */,
 				308F6C5A1EA05B2A006BECDD /* ExtensionMethods.swift in Sources */,

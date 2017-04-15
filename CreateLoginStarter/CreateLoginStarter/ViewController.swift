@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     override func shouldPerformSegue(withIdentifier identifier:String, sender: Any?) -> Bool
     {
         
-        /*if self.validInfo
+        if self.validInfo
         {
             self.validInfo = false
             return true
@@ -54,12 +54,16 @@ class ViewController: UIViewController {
             return true
         }
         
-        return false*/
-        return true
+        return false
     }
     
     override func performSegue(withIdentifier identifier: String, sender: Any?)
     {
+        if identifier == "MainScreenSegue"
+        {
+            var nextScreen = self.storyboard?.instantiateViewController(withIdentifier: "MainScreenViewController") as! MainScreenViewController
+            self.navigationController?.pushViewController(nextScreen, animated: true)
+        }
         
     }
     
